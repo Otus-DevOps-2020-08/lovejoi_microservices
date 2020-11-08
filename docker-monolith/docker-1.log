@@ -1,0 +1,5 @@
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              18.04               56def654ec22        5 weeks ago         63.2MB
+hello-world         latest              bf756fb1ae65        10 months ago       13.3kB
+
+Разница между docker inspect <u_container_id> и docker inspect <u_image_id> втом что первая команда показывает детали о запушенном контейнере на инстансе в том числе и параметры сети. А вторая команда показывает параметры имиджа из которого создан сам контейнер.
